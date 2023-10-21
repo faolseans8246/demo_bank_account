@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+  </head>
+
+  <body>
+
+    <!-- Saytda foydalanuvchi uchun ko'rinadigan qismlarni to'plagan qismi -->
+    <div class="container modal-body p-5 pt-0">
+
+        <!-- Iconka va text matn qismi -->
+        <h1><img class="icon-path" width="50px" src="D:\PersonalProjects\WebProject\JavaWeb\DemoBank\FrontEnd\icons\target-audience.png"> 
+            Login
+        </h1>
+
+        <!-- So'rovlar formasi -->
+        <form class="registration" method="post">
+          
+            <!-- Foydalanuvchi pochta addressini kiritivchi qismi -->
+            <label class="pure-material-textfield-outlined" id="email-area">
+                <span>Email</span><br>
+                <input placeholder="Enter your email address" type="email" required>  
+            </label>
+            
+            <label class="pure-material-textfield-outlined" id="email-area">
+                <span>Password</span><br>
+                <input placeholder="Enter your password" type="password" required>
+            </label>
+          
+            <!-- Kiritilgan ma'lumotlarni bazaga yuboruvchi button -->
+            <button class="pure-material-button-contained btn btn-success" type="submit">R e g i s t e r</button>
+        </form>
+    
+        <!-- Account mavjud bo'lsa o'sha accountga kirishni taminlovchi saytga o'tkazuvchi link -->
+        <div class="sign-in">
+            <span>
+                <h4>Already have an account: 
+                    <a href="register.html">Sign Up</a>
+                </h4>
+            </span>
+        </div>
+
+        <!-- Bitta qadam orqaga qaytaruvchi link -->
+        <div class="Back-button">
+            <span>
+                <h4>
+                    <a href="index.html">
+                        <img src="D:\PersonalProjects\WebProject\JavaWeb\DemoBank\FrontEnd\icons\left-arrow.png" width="32px" alt="">
+                        Back
+                    </a>
+                </h4>
+            </span>
+        </div>
+
+
+
+    </div>
+    
+  </body>
+</html>
